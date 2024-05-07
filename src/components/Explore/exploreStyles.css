@@ -1,0 +1,63 @@
+.explore {
+  background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./main.jpeg") center/cover no-repeat;
+
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore-contents {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.explore-contents h1 {
+  font-size: 3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+
+.explore-contents p {
+  font-size: 1.3rem;
+  text-align: center;
+  letter-spacing: 3px;
+  width: 90%;
+  margin: 1rem;
+}
+
+.explore-contents button {
+  padding: 1.5rem 2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: aliceblue;
+  color: #03aed2;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+  font-weight: 900;
+  transition: 0.5s ease-in-out;
+}
+
+.explore-contents button:hover {
+  background-color: #03aed2;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1024px) {
+  .explore {
+    background: #03aed2;
+  }
+}

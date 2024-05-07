@@ -1,0 +1,43 @@
+.services {
+  background-color: #e3f4f4;
+  cursor: default;
+  padding-bottom: 60px;
+}
+
+.i-services {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.service-components {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+  padding: 20px;
+}
+
+.service-components .service-icon {
+  color: #102c57;
+  padding: 0.5rem;
+  font-size: 2rem;
+  background-color: #03aed2;
+}
+
+.service-components .description h3 {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.service-components .description p {
+  color: #524c42;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1300px) {
+  .i-services {
+    flex-direction: column;
+  }
+}

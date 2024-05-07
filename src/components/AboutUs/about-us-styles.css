@@ -1,0 +1,94 @@
+.about-us {
+  height: max-content;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 10px 0 100px;
+}
+
+.about-us .content {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-us .about-img {
+  height: 20rem;
+  width: 25rem;
+  border: 0.8rem solid #68d2e8;
+}
+
+.about-us img {
+  height: inherit;
+  width: inherit;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  padding-right: 10px;
+}
+
+.about-us .content .description {
+  height: 80%;
+  width: 55%;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: start;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.about-us .content .description p {
+  font-size: 1.2rem;
+  color: #778da9;
+  text-align: justify;
+  font-weight: 400;
+}
+.about-us .content .description button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 0;
+  background-color: aliceblue;
+  color: #68d2e8;
+  border: 1px solid #68d2e8;
+  font-weight: 900;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.about-us .content .description button:active,
+.about-us .content .description button:hover {
+  transform: scale(1.05);
+  background-color: #68d2e8;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1130px) {
+  .about-us .content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .about-us .about-img {
+    border: none;
+    height: 100%;
+    width: 100%;
+  }
+
+  .about-us .about-img img {
+    max-width: 400px;
+    position: unset;
+    margin: auto;
+    padding: 0;
+  }
+
+  .about-us .content .description {
+    width: 100%;
+    margin-top: 0;
+  }
+}
