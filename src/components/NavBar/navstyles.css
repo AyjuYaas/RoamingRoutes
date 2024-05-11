@@ -131,3 +131,12 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 310px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .navbar .heading {
+    font-size: 1.3rem;
+  }
+}

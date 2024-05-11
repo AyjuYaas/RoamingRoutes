@@ -1,25 +1,24 @@
 .about-us {
-  height: max-content;
   cursor: default;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: start;
   padding: 10px 0 100px;
 }
 
 .about-us .content {
   display: flex;
   justify-content: center;
-  gap: 3rem;
   align-items: center;
-  padding: 20px;
+  gap: 3rem;
 }
 
 .about-us .about-img {
   height: 20rem;
   width: 25rem;
   border: 0.8rem solid #68d2e8;
+  display: flex;
 }
 
 .about-us img {
@@ -81,14 +80,18 @@
   }
 
   .about-us .about-img img {
-    max-width: 400px;
+    max-width: 600px;
     position: unset;
     margin: auto;
-    padding: 0;
+    padding: 40px;
   }
 
   .about-us .content .description {
     width: 100%;
     margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px 0 40px;
   }
 }
