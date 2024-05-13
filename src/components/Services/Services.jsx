@@ -1,6 +1,6 @@
-import "./services-styles.css";
+import "./Services.css";
 import { services } from "./servicesData";
-import Iservices from "./Iservices";
+import IndividualServices from "./IndividualServices";
 import Title from "../Title";
 
 export default function Services() {
@@ -9,7 +9,7 @@ export default function Services() {
       <Title first="Our" last="services" />
       <div className="i-services">
         {services.map((service) => (
-          <Iservices key={service.id} {...service} />
+          <IndividualServices key={service.id} {...service} />
         ))}
       </div>
     </div>

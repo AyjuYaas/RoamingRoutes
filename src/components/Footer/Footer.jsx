@@ -1,6 +1,6 @@
 import SocialLinks from "../NavBar/items/SocialLinks";
 import PageLinks from "../NavBar/items/PageLinks";
-import "./footer-styles.css";
+import "./Footer.css";
 
 export default function Footer() {
   return (

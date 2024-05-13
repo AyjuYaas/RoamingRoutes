@@ -1,5 +1,5 @@
 import Title from "../Title";
-import "./featured-styles.css";
+import "./Featured.css";
 import Cards from "./Cards";
 import { tours } from "./data";
 

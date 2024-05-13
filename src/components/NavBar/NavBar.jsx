@@ -4,7 +4,7 @@ import { FaBars } from "react-icons/fa";
 import Logo from "./items/Logo";
 import PageLinks from "./items/PageLinks";
 import SocialLinks from "./items/SocialLinks";
-import "./navstyles.css";
+import "./Navbar.css";
 
 const NavBar = () => {
   let a = 0;

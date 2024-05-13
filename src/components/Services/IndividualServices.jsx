@@ -1,4 +1,4 @@
-export default function Iservices(props) {
+export default function IndividualServices(props) {
   const { icon, title, text } = props;
   return (
     <div className="service-components">

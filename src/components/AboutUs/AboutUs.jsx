@@ -1,4 +1,4 @@
-import "./about-us-styles.css";
+import "./AboutUs.css";
 import Title from "../Title";
 import img from "./about.jpeg";
 

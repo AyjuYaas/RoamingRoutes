@@ -1,5 +1,5 @@
 import "./main.jpeg";
-import "./exploreStyles.css";
+import "./Explore.css";
 
 export default function Explore() {
   return (
