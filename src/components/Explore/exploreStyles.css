@@ -52,7 +52,7 @@
 }
 
 .explore-contents button:hover {
-  background-color: #03aed2;
+  background-color: #68d2e8;
   color: aliceblue;
 }
 
@@ -60,4 +60,8 @@
   .explore {
     background: #03aed2;
   }
+  /* .explore-contents button:hover {
+    background-color: aliceblue;
+    color: #03aed2;
+  } */
 }

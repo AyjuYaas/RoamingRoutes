@@ -31,8 +31,8 @@ const NavBar = () => {
     <div className="navbar">
       <Logo />
       <nav ref={navRef} className="navbar-inner">
-        <PageLinks />
-        <SocialLinks />
+        <PageLinks responsive={showNavbar} />
+        <SocialLinks responsive={showNavbar} />
       </nav>
       <button className="nav-button nav-close-btn" onClick={showNavbar}>
         <FaBars />
